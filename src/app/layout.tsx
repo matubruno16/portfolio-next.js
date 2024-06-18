@@ -16,6 +16,20 @@ export const metadata: Metadata = {
     "Matias Bruno, Desarrollador Web, Desarrollador Frontend, HTML, CSS, JavaScript, React.JS, Next.JS, Sitios Web, Agencias Web, Desarrollo Web, Diseño Web",
   authors: [{ name: "Matias Bruno" }],
   robots: "index, follow",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+    other: {
+      rel: "apple-touch-icon",
+      url: "/favicon.png",
+    },
+  },
+  alternates: {
+    canonical: "https://matiasbrunodev.vercel.app",
+  },
+  category: "desarrollo web, aplicaciones web, diseños web",
+
 };
 
 export default function RootLayout({
