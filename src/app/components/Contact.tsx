@@ -36,8 +36,8 @@ export default function Contact() {
 
   return (
     <section
-      className="flex flex-col items-center justify-center md:py-10  md:px-10"
-      id="sobre-mi"
+      className="flex flex-col items-center justify-center pt-10 pb-20 md:pt-10  md:px-10"
+      id="contacto"
     >
       <h2 className="text-5xl font-semibold py-10 text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-cyan-500 ">
         Contactanos

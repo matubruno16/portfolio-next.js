@@ -3,7 +3,7 @@
 export default function About() {
   return (
     <section
-      className="flex flex-col items-center justify-center py-20 px-10"
+      className="flex flex-col items-center justify-center py-20 px-6"
       id="sobre-mi"
     >
       <h2 className="text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-10">
@@ -50,18 +50,18 @@ export default function About() {
           </div>
         </div>
         <div className="max-w-[650px]">
-          <p className="p-4 mb-[-10px] text-xl font-light  text-pretty">
+          <p className="p-4 mb-[-10px] text-lg font-light  text-pretty">
             Soy un apasionado del Desarrollo Web Full Stack y actualmente estoy
             ampliando mis conocimientos mediante la Tecnicatura Universitaria en
             Desarrollo de Aplicaciones Informáticas en la Universidad Nacional
             del Centro de la Provincia de Buenos Aires.
           </p>
-          <p className="p-4 mb-[-10px] text-xl font-light text-pretty ">
+          <p className="p-4 mb-[-10px] text-lg font-light text-pretty ">
             Esa misma curiosidad me motivó a profundizar en el desarrollo de
             tecnologías, aprendiendo de forma autodidacta y constante, lo que me
             permitió dar mis primeros pasos como profesional.
           </p>
-          <p className="p-4 mb-[-10px] text-xl font-light text-pretty">
+          <p className="p-4 mb-[-10px] text-lg font-light text-pretty">
             Estoy emocionado por contribuir al éxito de nuevos proyectos. Estoy
             convencido de que mi habilidad para colaborar y mi enfoque proactivo
             son activos valiosos para cualquier equipo de desarrollo.

@@ -5,11 +5,11 @@ import Image from "next/image";
 import { fromLeft, fromRight, fromTop } from "../utils/motion";
 export default function Hero() {
   return (
-    <section>
+    <section className="w-full h-full max-w-[1600px] mx-auto">
       <motion.div
         initial="hidden"
         animate="visible"
-        className="flex items-center justify-center px-20 mt-32 md:mt-40 w-full z-[20]"
+        className="flex items-center justify-center px-6 md:px-20 mt-32 md:mt-40 w-full z-[20]"
       >
         <div className="h-full w-full flex flex-col gap-5 justify-center max-md:items-center m-auto">
           <motion.div
