@@ -3,7 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRef, useState } from "react";
 import { useForm } from "react-hook-form";
-import { sendEmail } from "../api/send/route";
+import { sendEmail } from "../api/sendEmail";
 import { userShemaContact } from "../utils/userShemaContact";
 import ModalContact from "./ModalContact";
 

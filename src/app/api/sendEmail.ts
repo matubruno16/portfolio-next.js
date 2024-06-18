@@ -4,14 +4,14 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-interface EmailTemplateOurTeamProps {
+interface EmailTemplateProps {
   name: string;
   subject: string;
   email: string;
   message: string;
 }
 
-export const sendEmail= async (formData: EmailTemplateOurTeamProps) => {
+export const sendEmail = async (formData: EmailTemplateProps) => {
   const { name, subject, email, message } = formData;
 
   try {
