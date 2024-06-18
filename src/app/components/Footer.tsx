@@ -9,8 +9,8 @@ export default function Footer() {
         <Dock className="relative">
           {socialLinks.map((link) => (
             <DockIcon key={link.name}>
-              <a href={link.url} target="_blank" rel="noreferrer">
-                <img src={link.icon} alt={`Icono de ${link.name}`} />
+              <a href={link.url} target="_blank" rel="noreferrer" title={`Icono de ${link.name}`}>
+                <img src={link.icon} alt={`Icono de ${link.name}` } />
               </a>
             </DockIcon>
           ))}

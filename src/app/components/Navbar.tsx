@@ -17,7 +17,7 @@ const Navbar = () => {
             alt="logo"
             width={150}
             height={40}
-            className=""
+            quality={100}
           />
         </a>
 
@@ -26,24 +26,28 @@ const Navbar = () => {
             <a
               href="#proyectos"
               className="cursor-pointer hover:scale-105 transition ease-in-out"
+              title="Proyectos"
             >
               Proyectos
             </a>
             <a
               href="#sobre-mi"
               className="cursor-pointer hover:scale-105 transition ease-in-out"
+              title="Sobre Mi"
             >
               Sobre Mi
             </a>
             <a
               href="#servicios"
               className="cursor-pointer hover:scale-105 transition ease-in-out"
+              title="Servicios"
             >
               Servicios
             </a>
             <a
               href="#contacto"
               className="cursor-pointer hover:scale-105 transition ease-in-out"
+              title="Contacto"
             >
               Contacto
             </a>
@@ -66,6 +70,7 @@ const Navbar = () => {
                     href="#proyectos"
                     className="cursor-pointer hover:scale-105 transition ease-in-out"
                     onClick={toggleMenu}
+                    title="Proyectos"
                   >
                     Proyectos
                   </a>
@@ -75,6 +80,7 @@ const Navbar = () => {
                     href="#sobre-mi"
                     className="cursor-pointer hover:scale-105 transition ease-in-out"
                     onClick={toggleMenu}
+                    title="Sobre Mi"
                   >
                     Sobre Mi
                   </a>
@@ -84,6 +90,7 @@ const Navbar = () => {
                     href="#servicios"
                     className="cursor-pointer hover:scale-105 transition ease-in-out"
                     onClick={toggleMenu}
+                    title="Servicios"
                   >
                     Servicios
                   </a>
@@ -93,6 +100,7 @@ const Navbar = () => {
                     href="#contacto"
                     className="cursor-pointer hover:scale-105 transition ease-in-out"
                     onClick={toggleMenu}
+                    title="Contacto"
                   >
                     Contacto
                   </a>

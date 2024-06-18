@@ -62,6 +62,7 @@ export default function Hero() {
             alt="work icons"
             height={650}
             width={650}
+            quality={100}
           />
         </motion.div>
       </motion.div>

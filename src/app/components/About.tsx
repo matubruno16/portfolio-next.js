@@ -16,6 +16,7 @@ export default function About() {
               className="w-60 max-md:mx-auto md:w-40 rounded bg-cover max-w-[100%] object-cover"
               src={"/home-fondo.webp"}
               alt="Foto Matias Bruno"
+              loading="lazy"
             />
             <div className="flex flex-col justify-center items-center md:ml-10 md:items-start ">
               <p className="mt-4">
@@ -39,12 +40,12 @@ export default function About() {
             <div className="my-10">
               <p className="text-xl mt-8 font-bold text-center">Skills</p>
               <div className="grid grid-cols-3  justify-items-center mt-8 gap-4 sm:w-[50%] mx-auto [&>img]:aspect-square [&>img]:object-contain [&>img]:w-[80px] ">
-                <img src={"/html5.svg"} alt="Logo HTML" />
-                <img src={"/css.svg"} alt="Logo CSS" />
-                <img src={"/tailwind.svg"} alt="Logo Wordpress" />
-                <img src={"/javascript.svg"} alt="Logo Javascript" />
-                <img src={"/react.svg"} alt="Logo React JS" />
-                <img src={"/next.svg"} alt="Logo MySQL" />
+                <img src={"/html5.svg"} alt="Logo HTML" loading="lazy"/>
+                <img src={"/css.svg"} alt="Logo CSS" loading="lazy"/>
+                <img src={"/tailwind.svg"} alt="Logo Wordpress" loading="lazy"/>
+                <img src={"/javascript.svg"} alt="Logo Javascript" loading="lazy"/>
+                <img src={"/react.svg"} alt="Logo React JS" loading="lazy"/>
+                <img src={"/next.svg"} alt="Logo MySQL" loading="lazy"/>
               </div>
             </div>
           </div>
