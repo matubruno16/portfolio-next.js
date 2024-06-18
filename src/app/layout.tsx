@@ -18,12 +18,6 @@ export const metadata: Metadata = {
   robots: "index, follow",
   icons: {
     icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
-    other: {
-      rel: "apple-touch-icon",
-      url: "/favicon.png",
-    },
   },
   alternates: {
     canonical: "https://matiasbrunodev.vercel.app",
