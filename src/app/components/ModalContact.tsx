@@ -11,15 +11,15 @@ export default function ModalContact({ setMostrarMensaje }: any) {
   }, [setMostrarMensaje]);
   return (
     <div className="fixed inset-0 w-screen h-screen backdrop-blur-sm bg-MSGray/40 ">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-4 px-4 rounded-md border-l-4 border-green-500 bg-green-50 md:max-w-2xl md:mx-auto md:px-8">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-4 px-4 rounded-md border-l-4 border-[#7042f8] bg-[#E9E2FF] md:max-w-2xl md:mx-auto md:px-8">
         <div className="flex justify-between py-3">
           <div className="flex">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 rounded-full text-green-500"
+                className="h-6 w-6 rounded-full"
                 viewBox="0 0 20 20"
-                fill="currentColor"
+                fill="#7042f8"
               >
                 <path
                   fillRule="evenodd"
@@ -29,23 +29,23 @@ export default function ModalContact({ setMostrarMensaje }: any) {
               </svg>
             </div>
             <div className="self-center ml-3">
-              <span className="text-green-600 font-semibold uppercase">
-                Successfully sent
+              <span className="text-[#2A1669] font-semibold uppercase">
+                Enviado correctamente
               </span>
-              <p className="text-green-600 mt-1">
-                Our sales team will contact you as soon as possible.
+              <p className="text-[#2A1669] mt-1">
+                Nos pondremos en contacto con usted lo antes posible!
               </p>
             </div>
           </div>
           <button
             onClick={() => setMostrarMensaje(false)}
-            className="self-start text-green-500"
+            className="self-start text-[#7042f8]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
               viewBox="0 0 20 20"
-              fill="currentColor"
+              fill="#7042f8"
             >
               <path
                 fillRule="evenodd"

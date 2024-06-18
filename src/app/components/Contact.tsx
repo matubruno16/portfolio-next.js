@@ -129,7 +129,7 @@ export default function Contact() {
             {errors.message?.message && (
               <p className="text-red-500 pl-2">{errors.message?.message}</p>
             )}
-            <p className="text-red-500 text-sm">*Campos requeridos</p>
+            <p className="text-red-500 text-sm pl-6">*Campos requeridos</p>
           </div>
 
           <div className="flex justify-center items-center gap-4 w-full">
