@@ -1,30 +1,23 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
 import { socialLinks } from "../utils/socialLinks";
+import { Dock, DockIcon } from "./Dock";
 
 export default function Footer() {
   return (
-    <footer className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+    <footer className="w-full h-full backdrop-blur-sm py-10 bg-[#7042f8]/10 text-gray-200 shadow-lg  ">
       <div className="w-full flex flex-col items-center justify-center m-auto">
-      
-          {socialLinks.map((social) => (
-            <a
-              href={social.url}
-              key={social.name}
-              className="cursor-pointer flex items-center"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={social.icon}
-                alt={`Icono red social ${social.name}`}
-                width={40}
-                height={40}
-              />
-              {social.name}
-            </a>
+        <Dock className="relative">
+          {socialLinks.map((link) => (
+            <DockIcon key={link.name}>
+              <a href={link.url} target="_blank" rel="noreferrer">
+                <img src={link.icon} alt={`Icono de ${link.name}`} />
+              </a>
+            </DockIcon>
           ))}
-              
+        </Dock>
+      </div>
+      <div className="w-full flex flex-col items-center justify-center mt-5 ">
+        <h3>© 2024 Todos los derechos reservados</h3>
       </div>
     </footer>
   );

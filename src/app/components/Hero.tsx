@@ -1,27 +1,21 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
-import {
-  fromLeft,
-  fromRight,
-  fromTop,
-} from "../utils/motion";
 import Image from "next/image";
+import { fromLeft, fromRight, fromTop } from "../utils/motion";
 export default function Hero() {
   return (
     <section>
       <motion.div
         initial="hidden"
         animate="visible"
-        className="flex items-center justify-center px-20 mt-40 w-full z-[20]"
+        className="flex items-center justify-center px-20 mt-32 md:mt-40 w-full z-[20]"
       >
         <div className="h-full w-full flex flex-col gap-5 justify-center max-md:items-center m-auto">
           <motion.div
             variants={fromTop}
             className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
           >
-            {/* <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" /> */}
             <h1 className="Welcome-text text-[13px]">
               Desarrollador Web FrontEnd
             </h1>
@@ -29,7 +23,7 @@ export default function Hero() {
 
           <motion.div
             variants={fromLeft(0.5)}
-            className="flex flex-col gap-6 mt-6 text-5xl lg:text-6xl font-bold text-white max-w-[600px] w-auto h-auto text-center md:text-start "
+            className="flex flex-col gap-6 mt-6 text-5xl sm:text-6xl font-bold text-white max-w-[600px] w-auto h-auto text-center md:text-start "
           >
             <h2>
               Asegurando

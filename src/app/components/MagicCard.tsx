@@ -52,9 +52,7 @@ const MagicContainer = ({ children, className }: MagicContainerProps) => {
     init();
     containerRef.current &&
       setBoxes(
-        Array.from(containerRef.current.children).map(
-          (el) => el as HTMLElement,
-        ),
+        Array.from(containerRef.current.children).map((el) => el as HTMLElement)
       );
   }, []);
 
@@ -197,24 +195,22 @@ const MagicCard: React.FC<MagicCardProps> = ({
         } as CSSProperties
       }
       className={cn(
-        "relative z-0 max-h-full w-full rounded-2xl p-6",
+        "relative z-0 max-h-full w-full rounded-3xl p-6",
         "bg-gray-700",
         "bg-[radial-gradient(var(--mask-size)_circle_at_var(--mouse-x)_var(--mouse-y),var(--border-color),transparent_100%)]",
-        className,
+        className
       )}
       {...props}
     >
       {children}
 
       {/* Background */}
-      <div
-        className={
-          "absolute inset-[1px] -z-20 rounded-2xl bg-black/95"
-        }
-      > </div>
+      <div className={"absolute inset-[1px] -z-20 rounded-3xl bg-black/95"}>
+        {" "}
+      </div>
     </article>
-    
   );
 };
 
 export { MagicCard, MagicContainer };
+

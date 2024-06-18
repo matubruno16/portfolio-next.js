@@ -11,22 +11,21 @@ export default function About() {
       </h2>
       <div className="md:grid md:grid-cols-2">
         <div className="">
-          <div className="md:flex md:justify-center ">
+          <div className="md:flex md:justify-center  ">
             <img
               className="w-60 max-md:mx-auto md:w-40 rounded bg-cover max-w-[100%] object-cover"
               src={"/home-fondo.webp"}
               alt="Foto Matias Bruno"
             />
-            <div className="flex flex-col ml-14">
+            <div className="flex flex-col justify-center items-center md:ml-10 md:items-start ">
               <p className="mt-4">
-                <span className="font-bold text-lg">Nombre:</span> Matias
-                 Bruno
+                <span className="font-bold text-lg">Nombre:</span> Matias Bruno
               </p>
               <h2 className="mt-4">
-                <span className="font-bold text-lg">Perfil:</span> Full Stack
+                <span className="font-bold text-lg">Perfil:</span> FrontEnd
               </h2>
               <a
-                className=" w-min text-nowrap rounded-3xl py-1.5 px-3 mt-3 ml-6 border border-[#7042f88b] opacity-[0.9] text-gray-200"
+                className=" w-min text-nowrap rounded-3xl py-1.5 px-3 mt-3 md:ml-6 border border-[#7042f88b] opacity-[0.9] text-gray-200"
                 href="https://drive.google.com/file/d/1UEcqIIGODOUBhsoBq5jav2kCdNwWYBaR/view?usp=sharing"
                 rel="noopener noreferrer"
                 target="_blank"

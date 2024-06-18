@@ -6,7 +6,7 @@ export default function Projects() {
       className="flex flex-col items-center justify-center py-20"
       id="proyectos"
     >
-      <h2 className="text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h2 className="text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
         Mis Proyectos
       </h2>
       <div className="grid grid-cols-1 gap-10 px-10 md:grid-cols-2 xl:grid-cols-3 place-content-center justify-items-center  ">

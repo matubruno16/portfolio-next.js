@@ -22,6 +22,6 @@ export const socialLinks = [
   {
     name: "Facebook",
     url: "https://www.facebook.com/matias.bruno19",
-    icon: "/facebook.svg",    
+    icon: "/facebook.svg",
   },
-]
+];
