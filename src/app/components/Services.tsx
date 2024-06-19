@@ -2,7 +2,7 @@ import { MagicCard, MagicContainer } from "./MagicCard";
 
 export default function Services() {
   return (
-    <section id="servicios" className="flex flex-col items-center justify-center pt-20 pb-10">
+    <section id="servicios" className="max-w-[1440px] mx-auto flex flex-col items-center justify-center pt-20 pb-10">
       <div>
         <h2 className="text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-10">
           Servicios
