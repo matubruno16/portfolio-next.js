@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { fromLeft, fromRight, fromTop } from "../utils/motion";
+import { GlobelIcons } from "./GlobeIcons";
 export default function Hero() {
   return (
     <section className="w-full h-full max-w-[1600px] mx-auto">
@@ -14,15 +14,6 @@ export default function Hero() {
         <div className="h-full w-full flex flex-col gap-5 justify-center max-md:items-center m-auto">
           <motion.div
             variants={fromTop}
-            className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
-          >
-            <h1 className="Welcome-text text-[13px]">
-              Desarrollador Web FrontEnd
-            </h1>
-          </motion.div>
-
-          <motion.div
-            variants={fromLeft(0.5)}
             className="flex flex-col gap-6 mt-6 text-5xl sm:text-6xl font-bold text-white max-w-[600px] w-auto h-auto text-center md:text-start "
           >
             <h2>
@@ -44,26 +35,21 @@ export default function Hero() {
             informáticas en La Universidad Nacional del Centro de la Provincia
             de Buenos Aires.
           </motion.p>
-          <motion.a
-            href="#sobre-mi"
+          <motion.div
             variants={fromLeft(1)}
-            className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] text-gray-200"
+            className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
           >
-            Conoceme mejor
-          </motion.a>
+            <h1 className="Welcome-text text-[13px]">
+              Desarrollador Web FrontEnd
+            </h1>
+          </motion.div>
         </div>
 
         <motion.div
           variants={fromRight(0.8)}
           className="w-full h-full hidden md:flex justify-center items-center  "
         >
-          <Image
-            src="/mainIconsdark.svg"
-            alt="work icons"
-            height={650}
-            width={650}
-            quality={100}
-          />
+          <GlobelIcons />
         </motion.div>
       </motion.div>
     </section>
