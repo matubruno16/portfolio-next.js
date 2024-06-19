@@ -2,7 +2,10 @@ import { MagicCard, MagicContainer } from "./MagicCard";
 
 export default function Services() {
   return (
-    <section id="servicios" className="max-w-[1440px] mx-auto flex flex-col items-center justify-center pt-20 pb-10">
+    <section
+      id="servicios"
+      className="max-w-[1440px] mx-auto flex flex-col items-center justify-center pt-20 pb-10"
+    >
       <div>
         <h2 className="text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-10">
           Servicios
@@ -13,10 +16,7 @@ export default function Services() {
           "flex w-full max-w-[1440px] flex-col gap-6 lg:flex-row px-6 md:px-20 lg:p-6"
         }
       >
-        <MagicCard
-          borderWidth={3}
-          className="flex w-full cursor-pointer flex-col items-center justify-start overflow-hidden bg-[radial-gradient(var(--mask-size)_circle_at_var(--mouse-x)_var(--mouse-y),#ffaa40_0,#9c40ff_50%,transparent_100%)] p-10 shadow-2xl"
-        >
+        <MagicCard className="flex w-full cursor-pointer flex-col items-center justify-start overflow-hidden bg-[radial-gradient(var(--mask-size)_circle_at_var(--mouse-x)_var(--mouse-y),#ffaa40_0,#9c40ff_50%,transparent_100%)] p-10 shadow-2xl">
           <header>
             <h3 className="z-10 whitespace-nowrap text-4xl font-medium text-gray-200 pb-4">
               Wordpress
