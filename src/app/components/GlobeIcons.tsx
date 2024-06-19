@@ -7,7 +7,7 @@ const slugs = [
   "nodejs",
   "astro",
   "react",
-  "nextjs",
+  "next",
   "html5",
   "css3",
   "nodedotjs",
