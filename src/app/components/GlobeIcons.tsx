@@ -30,7 +30,7 @@ const slugs = [
 
 export function GlobelIcons() {
   return (
-    <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden px-20 pb-20 pt-8 ">
+    <div className="relative flex h-full w-full max-w-[32rem] p-10 items-center justify-center overflow-hidden">
       <IconCloud iconSlugs={slugs} />
     </div>
   );
