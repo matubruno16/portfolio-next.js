@@ -33,7 +33,7 @@ export const EmailTemplate: React.FC<EmailTemplateProps> = ({
       }}
     >
       <img
-        src="https://i.postimg.cc/N0B7R0pT/logo-Matias.png"
+        src="https://i.postimg.cc/gk7dWmM1/logo.png"
         alt="Logo Matias Bruno - Desarrollador Web"
         width={150}
         height={150}
