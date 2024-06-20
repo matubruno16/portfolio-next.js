@@ -10,46 +10,33 @@ export default function About() {
         Sobre Mi
       </h2>
       <div className="md:grid md:grid-cols-2">
-        <div className="">
-          <div className="md:flex md:justify-center  ">
+        
+          <div className=" flex flex-col justify-center items-center ">
             <img
-              className="w-60 max-md:mx-auto md:w-40 rounded bg-cover max-w-[100%] object-cover"
-              src={"/home-fondo.webp"}
+              className="w-[300px] rounded bg-cover object-cover"
+              src={"/fotoMatias.png"}
               alt="Foto Matias Bruno"
               loading="lazy"
             />
-            <div className="flex flex-col justify-center items-center md:ml-10 md:items-start ">
+            <div className="flex gap-6 items-center">
               <p className="mt-4">
                 <span className="font-bold text-lg">Nombre:</span> Matias Bruno
               </p>
               <h2 className="mt-4">
                 <span className="font-bold text-lg">Perfil:</span> FrontEnd
               </h2>
+            </div>
               <a
-                className=" w-min text-nowrap rounded-3xl py-1.5 px-3 mt-3 md:ml-6 border border-[#7042f88b] opacity-[0.9] text-gray-200"
-                href="https://drive.google.com/file/d/1UEcqIIGODOUBhsoBq5jav2kCdNwWYBaR/view?usp=sharing"
+                className=" w-min text-nowrap rounded-3xl py-1.5 px-3 my-4 border border-[#7042f88b] opacity-[0.9] text-gray-200"
+                href="https://drive.google.com/file/d/1ykuyVK8UNKyGHau7B1Y5OJAeLnu4Q_Ks/view?usp=sharing"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Boton de descarga de Curriculum Vitae"
               >
                 Descargar CV
               </a>
-            </div>
-          </div>
-          <div>
-            <div className="my-10">
-              <p className="text-xl mt-8 font-bold text-center">Skills</p>
-              <div className="grid grid-cols-3  justify-items-center mt-8 gap-4 sm:w-[50%] mx-auto [&>img]:aspect-square [&>img]:object-contain [&>img]:w-[80px] ">
-                <img src={"/html5.svg"} alt="Logo HTML" loading="lazy"/>
-                <img src={"/css.svg"} alt="Logo CSS" loading="lazy"/>
-                <img src={"/tailwind.svg"} alt="Logo Tailwind CSS" loading="lazy"/>
-                <img src={"/javascript.svg"} alt="Logo Javascript" loading="lazy"/>
-                <img src={"/react.svg"} alt="Logo React JS" loading="lazy"/>
-                <img src={"/next.svg"} alt="Logo Next.js" loading="lazy"/>
-              </div>
-            </div>
-          </div>
-        </div>
+          </div>  
+        
         <div className="max-w-[650px]">
           <p className="p-4 mb-[-10px] text-lg font-light  text-pretty">
             Soy un apasionado del Desarrollo Web Full Stack y actualmente estoy
