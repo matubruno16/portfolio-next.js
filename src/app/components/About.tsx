@@ -15,7 +15,7 @@ export default function About() {
             <img
               className="w-[300px] rounded bg-cover object-cover"
               src={"/fotoMatias.png"}
-              alt="Foto Matias Bruno"
+              alt="Foto perfil Matias Bruno"
               loading="lazy"
             />
             <div className="flex gap-6 items-center">
