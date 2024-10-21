@@ -11,6 +11,13 @@ export default function Projects() {
       </h2>
       <div className="grid grid-cols-1 gap-10 px-10 md:grid-cols-2 xl:grid-cols-3 place-content-center justify-items-center  ">
         <ProjectCard
+          url="https://riocordillerano.com.ar"
+          src="/home-rio-cordillerano.webp"
+          title="Rio Cordillerano"
+          description="Sitio Web desarrollado en Wordpress con tema personalizado adaptado al pedido del cliente."
+          skills={["Wordpress", "SEO", "CSS", "PHP", "HTML"]}
+        />
+        <ProjectCard
           url="https://memoriastudio.net"
           src="/home-memoriaStudio.webp"
           title="Memoria Studio"
