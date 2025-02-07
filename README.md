@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✨👨‍💻 Portfolio Web 👨‍💻✨
 
-## Getting Started
+¡Bienvenido al repositorio de mi Portfolio Web! Desarrollé este proyecto con tecnologías modernas como React.js, Tailwind CSS y librerias populares. Este portfolio está diseñado para mostrar los proyectos que he realizado, destacando mis habilidades como desarrollador web junior. En la actualidad, me encuentro en la búsqueda de mi primer empleo como desarrollador front-end, y este portfolio es una ventana que muestra mi habilidad técnica y creativa.
 
-First, run the development server:
+## Características Principales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Diseño Responsivo:** Diseño Responsivo: Mi portfolio es completamente responsive, garantizando una experiencia de usuario óptima en dispositivos de diferentes tamaños, desde teléfonos móviles hasta computadoras de escritorio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Tecnologías Utilizadas:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  - React.js: Utilicé esta biblioteca para crear componentes reutilizables y lograr una experiencia de usuario dinámica.
+  - Tailwind CSS: Implementé estilos modernos y flexibles sin sacrificar la legibilidad del código.
+  - JavaScript: Se empleó para la lógica de programación y la interactividad de la aplicación.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Proyectos Destacados:** Presento una selección de mis proyectos más destacados, demostrando mi capacidad para trabajar en diferentes áreas y tecnologías
 
-## Learn More
+- **Servicios Ofrecidos:** Además de mostrar mis proyectos, describo los servicios que ofrezco como desarrollador web junior. Estoy dispuesto a colaborar en proyectos emocionantes y a seguir aprendiendo continuamente.
 
-To learn more about Next.js, take a look at the following resources:
+## Contacto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Si estás interesado en colaborar conmigo o quieres conocer más sobre mis habilidades, ¡no dudes en ponerte en contacto conmigo!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Correo Electrónico:** matubruno16@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/matiasbruno19
+- **Sitio Web Personal:** https://matiasbrunodev.vercel.app
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+¡Gracias por visitar mi repositorio y considerarme para oportunidades de desarrollo front-end! 👨‍💻✨
